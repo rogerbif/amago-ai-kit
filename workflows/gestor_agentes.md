@@ -1,35 +1,39 @@
-# Workflow: 🧠 Gestor de Agentes Amago
+# 🧠 Workflow: Gestor de Agentes Amago
 
-Este workflow é o seu centro de comando para orquestrar o esquadrão de elite (PM: Frontend: Backend: Security: QA).
+Este é o centro de comando para orquestrar o esquadrão de especialistas (PM, Frontend, Backend, Security, QA). Siga este fluxo para garantir sincronização total e alta performance.
 
-## 1. Inicialização
-Antes de começar qualquer missão: precisamos garantir que o sistema de gestão está ativo.
+## 1. Inicialização Neural
+Antes de qualquer missão, o ambiente de gestão deve ser ativado.
 
 // turbo
-- [ ] Executar inicialização: `node core/scripts/gestor_equipe.js inicializar`
+- [ ] Iniciar Modo Interativo: `amago interativo`
+- [ ] Instalar Workflows Globais (se novo usuário): `amago install-workflows`
 
-## 2. Definir Missão
-Agora: diga ao **PM Estratégico** qual é o objetivo do projeto.
+## 2. Planejamento e Gatekeeping
+O Gestor analisa o problema, seleciona as personas e define o caminho crítico.
 
-- [ ] Digite a descrição da missão e o responsável (ex: "Criar API de Clientes" "PM"):
-- [ ] Criar tarefa no registro: `node core/scripts/gestor_equipe.js criar_tarefa "[INSIRA_A_TAREFA]" "[AGENTE]"`
+- [ ] Decompor objetivo e criar tarefas: `amago tarefa "[DESCRIÇÃO]" "[AGENTE]"`
+- [ ] **Aprovação de Segurança**: O Auditor de Security deve revisar planos complexos antes do início da execução.
 
-## 3. Comunicação Neural
-Use este passo para enviar instruções específicas ou pedir status para um agente.
+## 3. Execução Sincronizada
+As personas trabalham em paralelo, respeitando dependências e o sistema de travas.
 
-- [ ] Enviar mensagem: `node core/scripts/gestor_equipe.js mensagem "[REMETENTE]" "[DESTINATARIO]" "[CONTEUDO_DA_MENSAGEM]"`
+- [ ] Mover para Execução: `amago atualizar [ID] FAZENDO`
+- [ ] **Mensageria P2P**: Agentes trocam insights via `amago mensagem "[DE]" "[PARA]" "[CONTEÚDO]"`.
+- [ ] **Auto-Scan**: Rodar `amago scan` para descoberta neural de melhorias no código atual.
 
-## 4. Monitoramento e Controle
-Acompanhe o estado das tarefas no quadro de comando.
+## 4. Auditoria e Qualidade (QA Flow)
+Nenhuma tarefa é considerada concluída sem passar pelo fluxo de qualidade.
 
-- [ ] Visualizar Registro de Tarefas: `type core/.antigravity/gestao/registro_tarefas.json`
-- [ ] Atualizar estado de tarefa: `node core/scripts/gestor_equipe.js atualizar "[ID_TAREFA]" "[ESTADO]"` (ESTADOS: PENDENTE: FAZENDO: PRONTO)
+- [ ] Solicitar Revisão: `amago atualizar [ID] PRONTO` (Isso move a tarefa para REVISAO automaticamente).
+- [ ] **Validação QA**: O agente de QA audita a entrega. Se aprovado, ele marca como concluído.
 
-## 5. Finalização
-Quando a missão for concluída com sucesso.
+## 5. Consolidação e Aprendizado
+Ao final da missão, os insights são salvos para uso em projetos futuros.
 
-- [ ] Consolidar projeto e encerrar ciclo: `node core/scripts/gestor_equipe.js mensagem "PM" "GLOBAL" "Missão concluída com sucesso. Todos os agentes em standby."`
+- [ ] Consolidar Conhecimento: O sistema extrai aprendizados automaticamente ao finalizar tarefas.
+- [ ] Encerrar Missão: Enviar comunicado global de standby.
 
 ---
 > [!IMPORTANT]
-> Lembre-se: cada agente possui skills de elite. Use a comunicação para extrair o máximo de cada persona!
+> **Regra de Ouro**: Respeite sempre as travas de arquivo e a autoridade do QA para garantir um código livre de regressões e vulnerabilidades.

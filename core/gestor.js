@@ -254,7 +254,7 @@ export class GestorEquipe {
     
     const { exec } = await import('child_process');
     const dashPath = path.join(this.diretorioKit, 'gestor_agentes.html');
-    exec(`start ${dashPath}`);
+    exec(`start "" "${dashPath}"`);
 
     rl.close();
     this.atualizarDashboard();

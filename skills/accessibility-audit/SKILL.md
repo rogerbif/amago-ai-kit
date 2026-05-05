@@ -1,17 +1,17 @@
-﻿---
+---
 name: accessibility-audit
 description: Accessibility auditing (WCAG), screen readers, and inclusive practices. Use when ensuring the UI is accessible to all users.
 ---
 
-# 🛡️ Amago Academy - 2026
+# ??? Amago Academy - 2026
 
-# ♿ Accessibility Audit (Amago Elite)
+# ? Accessibility Audit
 
 > Web para todos. Inclusão é um requisito técnico, não um extra.
 
 Esta skill define os padrões de acessibilidade do **Amago AI Kit**, garantindo que nossas interfaces sejam navegáveis por qualquer pessoa, independente de suas capacidades.
 
-## 🎯 Pilares da Acessibilidade
+## ?? Pilares da Acessibilidade
 1. **Perceptível**: Informações e componentes da interface devem ser apresentados de forma que os usuários possam percebê-los.
 2. **Operável**: Componentes da interface e a navegação devem ser operáveis (ex: teclado).
 3. **Compreensível**: Informações e operação da interface devem ser compreensíveis.
@@ -19,7 +19,7 @@ Esta skill define os padrões de acessibilidade do **Amago AI Kit**, garantindo 
 
 ---
 
-## ✅ Checklist de Acessibilidade
+## ? Checklist de Acessibilidade
 
 - [ ] **Contraste**: O contraste de cores atende aos padrões WCAG AA?
 - [ ] **Navegação por Teclado**: Todos os elementos interativos são acessíveis via Tab?

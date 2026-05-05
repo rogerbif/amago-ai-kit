@@ -1,58 +1,54 @@
-﻿
-# 🛡️ Amago Academy - 2026
 
-# 🎨 UI Design Standards (Amago Elite)
+# ðŸ›¡ï¸ Amago Academy - 2026
 
-> O design não é apenas como parece, mas como funciona e como se sente.
+# ðŸŽ¨ UI Design Standards
 
-Este guia define as regras mandatórias para interfaces criadas pelo **Amago AI Kit**, focando em profissionalismo, contraste e eliminação de clichês.
+> O design deve servir ao usuÃ¡rio e ao propÃ³sito do negÃ³cio, mantendo a consistÃªncia e a clareza.
 
-## 🚫 BANIMENTOS (Regras de Ouro)
+Este guia define as melhores prÃ¡ticas para interfaces assistidas pelo **Amago AI Kit**, focando em acessibilidade, usabilidade e profissionalismo.
 
-1. **PROIBIDO usar Emojis como ícones**: NUNCA use 🎨, 🚀, ⚙️ como ícones de interface. Use sempre SVGs técnicos (Lucide, Heroicons).
-2. **BANIMENTO do Roxo**: Evite o roxo/magenta como cor primária (clichê de IA), a menos que explicitamente solicitado.
-3. **PROIBIDO Escala no Hover**: Evite `scale-105` em cards que deslocam o layout. Use transições de cor, borda ou sombra.
+## ðŸ’¡ RECOMENDAÃ‡Ã•ES (Melhores PrÃ¡ticas)
+
+1. **Ãcones Vetoriais**: Prefira o uso de SVGs tÃ©cnicos (Lucide, Heroicons) em vez de emojis para manter uma aparÃªncia profissional e consistente em interfaces de software.
+2. **Uso de Cores**: Evite dependÃªncia excessiva de cores vibrantes ou "clichÃªs" para aÃ§Ãµes primÃ¡rias, a menos que faÃ§am parte do Brand Guideline do projeto. Garanta que o contraste atenda aos padrÃµes WCAG.
+3. **InteraÃ§Ãµes Suaves**: Utilize transiÃ§Ãµes sutis em estados de hover e active. Evite animaÃ§Ãµes que causem deslocamento inesperado de layout ou que possam distrair o usuÃ¡rio de sua tarefa principal.
 
 ---
 
-## 🎨 Contraste e Acessibilidade
+## ðŸŽ¨ Contraste e Acessibilidade
 
 ### Modo Claro (Light Mode)
-- **Texto Principal**: Use Slate-900 (`#0F172A`) para legibilidade máxima.
-- **Texto Secundário**: Use Slate-600 (`#475569`) no mínimo. Evite cinzas muito claros.
-- **Bordas**: Devem ser visíveis (ex: `border-gray-200`). Elementos transparentes/glass em modo claro precisam de opacidade maior (ex: `bg-white/80`).
+- **Legibilidade**: Garanta contraste alto para textos principais (ex: Slate-900).
+- **Hierarquia**: Use tons de cinza ou cores secundÃ¡rias para textos de apoio, garantindo que ainda sejam legÃ­veis.
 
 ### Modo Escuro (Dark Mode)
-- **Contraste**: Garanta que o texto mantenha o ratio de 4.5:1.
-- **Profundidade**: Use camadas de cinza escuro/preto com bordas sutis para separar elementos.
+- **Ratio de Contraste**: Mantenha o ratio de no mÃ­nimo 4.5:1 para textos normais.
+- **Camadas**: Utilize diferentes tons de fundo e bordas sutis para criar profundidade e separar elementos.
 
 ---
 
-## 🖱️ Interatividade e Feedback
+## ðŸ–±ï¸ Interatividade e Feedback
 
-- **Cursor**: Todo elemento clicável deve ter `cursor-pointer`.
-- **Transições**: Use durações entre **150ms e 300ms** para um feedback orgânico. Ex: `transition-all duration-200`.
-- **Focus States**: Botões e inputs devem ter estados de foco visíveis para navegação por teclado.
-
----
-
-## 📱 Responsividade (Mobile-First)
-
-1. **Zero Scroll Horizontal**: O site deve ser perfeitamente navegável em 375px.
-2. **Navbar Flutuante**: Prefira `top-4 left-4 right-4` em vez de `top-0` colado nas bordas (estética mais moderna/premium).
-3. **Toque**: Áreas clicáveis devem ter no mínimo 44px de altura/largura.
+- **Estados Visuais**: Todo elemento interativo deve fornecer feedback visual claro (hover, focus, active, disabled).
+- **Tempo de Resposta**: Use transiÃ§Ãµes entre **150ms e 300ms** para que a interface pareÃ§a responsiva e orgÃ¢nica.
+- **Acessibilidade de Teclado**: Garanta que todos os elementos interativos sejam acessÃ­veis via `Tab` e possuam indicadores de foco visÃ­veis.
 
 ---
 
-## ✅ Checklist Pré-Entrega
+## ðŸ“± Responsividade (Mobile-First)
 
-- [ ] Os ícones são consistentes (mesma biblioteca)?
-- [ ] O contraste de texto está acessível em ambos os modos?
-- [ ] Não há emojis sendo usados como elementos de UI?
-- [ ] O hover em botões/cards é suave e não quebra o layout?
-- [ ] A página foi testada em 375px e 1440px?
+1. **Layout Adaptativo**: O design deve se ajustar perfeitamente desde telas pequenas (375px) atÃ© monitores ultra-wide.
+2. **NavegaÃ§Ã£o**: Posicione elementos de navegaÃ§Ã£o de forma acessÃ­vel. Considere o uso de margens e espaÃ§amentos que facilitem o toque e a leitura.
+3. **Ãreas de Toque**: Garanta que botÃµes e links tenham uma Ã¡rea clicÃ¡vel mÃ­nima de 44px para facilitar o uso em dispositivos mÃ³veis.
 
 ---
 
+## âœ… Checklist de Qualidade UI
 
+- [ ] Os Ã­cones sÃ£o consistentes em estilo e peso?
+- [ ] O contraste de texto atende aos critÃ©rios de acessibilidade?
+- [ ] A interface fornece feedback claro para as aÃ§Ãµes do usuÃ¡rio?
+- [ ] O layout Ã© responsivo e livre de overflow horizontal?
+- [ ] Os estados de foco estÃ£o implementados corretamente?
 
+---

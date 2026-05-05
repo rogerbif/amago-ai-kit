@@ -1,10 +1,10 @@
 # Estrutura de Resposta
 
-> Consistência na saída é a chave para uma boa experiência do desenvolvedor.
+> ConsistÃªncia na saÃ­da Ã© a chave para uma boa experiÃªncia do desenvolvedor.
 
-## Padrão de Envelope
+## PadrÃ£o de Envelope
 
-Sempre retorne um objeto JSON, nunca um array puro na raiz (por questões de segurança e extensibilidade).
+Sempre retorne um objeto JSON, nunca um array puro na raiz (por questÃµes de seguranÃ§a e extensibilidade).
 
 ### Sucesso
 ```json
@@ -27,7 +27,7 @@ Sempre retorne um objeto JSON, nunca um array puro na raiz (por questões de seg
   "success": false,
   "error": {
     "code": "VALIDATION_ERROR",
-    "message": "O campo 'email' é obrigatório.",
+    "message": "O campo 'email' Ã© obrigatÃ³rio.",
     "details": [
       { "field": "email", "issue": "required" }
     ]
@@ -35,9 +35,9 @@ Sempre retorne um objeto JSON, nunca um array puro na raiz (por questões de seg
 }
 ```
 
-## Paginação Padronizada
+## PaginaÃ§Ã£o Padronizada
 
-Use `limit` e `offset` ou paginação baseada em cursor para grandes conjuntos de dados.
+Use `limit` e `offset` ou paginaÃ§Ã£o baseada em cursor para grandes conjuntos de dados.
 
 ```json
 {
@@ -54,4 +54,4 @@ Use `limit` e `offset` ou paginação baseada em cursor para grandes conjuntos d
 ## Regras de Ouro
 1. **Datas**: Sempre use ISO 8601 (`YYYY-MM-DDTHH:mm:ssZ`).
 2. **Nomenclatura**: Use `snake_case` ou `camelCase`, mas seja consistente em toda a API.
-3. **Nulls vs Empty**: Não retorne `null` se puder retornar um array vazio `[]` ou objeto vazio `{}`.
+3. **Nulls vs Empty**: NÃ£o retorne `null` se puder retornar um array vazio `[]` ou objeto vazio `{}`.

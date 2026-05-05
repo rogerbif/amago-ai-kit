@@ -1,23 +1,23 @@
-﻿---
+---
 name: database-design
 description: Data modeling, normalization, indexing, query performance, and migration management.
 ---
 
-# 🛡️ Amago Academy - 2026
+# ??? Amago Academy - 2026
 
-# 🗄️ Database Design (Amago Elite)
+# ??? Database Design
 
 > Os dados são o ativo mais precioso. Molde-os com precisão.
 
 Esta skill define os padrões de modelagem e gerenciamento de bancos de dados no **Amago AI Kit**, com foco especial em PostgreSQL/Supabase.
 
-## 🎯 Regra de Leitura Seletiva
+## ?? Regra de Leitura Seletiva
 
 **Leia APENAS os arquivos relevantes!**
 
 ---
 
-## 📑 Mapa de Conteúdo
+## ?? Mapa de Conteúdo
 
 | Arquivo | Descrição | Quando Ler |
 |------|-------------|--------------|
@@ -28,7 +28,7 @@ Esta skill define os padrões de modelagem e gerenciamento de bancos de dados no
 
 ---
 
-## ✅ Princípios de Elite Amago
+## ? Princípios de Elite Amago
 
 1. **Normalização Pragmática**: Siga até a 3ª forma normal, mas desnormalize se a performance exigir.
 2. **Tipagem Forte**: Use o tipo de dado mais restritivo possível.
@@ -37,7 +37,7 @@ Esta skill define os padrões de modelagem e gerenciamento de bancos de dados no
 
 ---
 
-## ❌ Anti-Padrões
+## ? Anti-Padrões
 
 - **Over-indexing**: Índices demais deixam as escritas lentas.
 - **Select ***: Nunca busque todas as colunas se precisar de apenas algumas.

@@ -1,23 +1,23 @@
-﻿---
+---
 name: api-patterns
 description: API design principles and decision-making. REST vs GraphQL vs tRPC, response formats, versioning, and security.
 ---
 
-# 🛡️ Amago Academy - 2026
+# ??? Amago Academy - 2026
 
-# 🌐 API Patterns (Amago Elite)
+# ?? API Patterns
 
 > Design de APIs de nível industrial: focadas em consistência, segurança e performance.
 
 Esta skill define os padrões do **Amago AI Kit** para a criação de interfaces de programação que são intuitivas para desenvolvedores e resilientes sob carga.
 
-## 🎯 Regra de Leitura Seletiva
+## ?? Regra de Leitura Seletiva
 
 **Leia APENAS os arquivos relevantes para a solicitação!** Consulte o mapa de conteúdo abaixo.
 
 ---
 
-## 📑 Mapa de Conteúdo
+## ?? Mapa de Conteúdo
 
 | Arquivo | Descrição | Quando Ler |
 |------|-------------|--------------|
@@ -29,7 +29,7 @@ Esta skill define os padrões do **Amago AI Kit** para a criação de interfaces
 
 ---
 
-## ✅ Checklist de Decisão Amago
+## ? Checklist de Decisão Amago
 
 Antes de implementar qualquer endpoint:
 
@@ -42,9 +42,9 @@ Antes de implementar qualquer endpoint:
 
 ---
 
-## ❌ Anti-Padrões (O que EVITAR)
+## ? Anti-Padrões (O que EVITAR)
 
-- Usar verbos nos endpoints REST (ex: `/getUsers` ❌ -> `/users` ✅)
+- Usar verbos nos endpoints REST (ex: `/getUsers` ? -> `/users` ?)
 - Retornar formatos de resposta inconsistentes entre diferentes módulos.
 - Expor stack traces ou erros internos detalhados para o cliente.
 - Ignorar o versionamento desde o dia 1.

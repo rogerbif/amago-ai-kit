@@ -1,25 +1,22 @@
-﻿
-# 🛡️ Amago Academy - 2026
 
-# 🧠 Fluxo de Brainstorming Disruptivo (Amago Elite)
+# ðŸ›¡ï¸ Amago Academy - 2026
 
-> A primeira ideia é raramente a melhor. Explore o impossível.
+# ðŸ§  Fluxo de Brainstorming e ExploraÃ§Ã£o
 
-Use este fluxo para gerar conceitos, nomes de projetos ou soluções criativas fora da caixa.
+> A exploraÃ§Ã£o de diversas perspectivas Ã© a chave para a inovaÃ§Ã£o e resoluÃ§Ã£o de problemas.
 
-## 1. Divergência Total
-- Gere o máximo de ideias sem filtro ou julgamento.
-- Explore metáforas, conexões absurdas e contrastes.
+Use este fluxo para gerar conceitos, soluÃ§Ãµes criativas e explorar diferentes caminhos para um problema.
 
-## 2. Refinamento Amago
-- Aplique o "Filtro de Clichê": Se a ideia parece algo que você já viu 100 vezes, descarte ou transforme.
-- Busque a "Tensão Estética": Ideias que provocam algum tipo de reação ou surpresa.
+## 1. Fase de DivergÃªncia
+- Gere uma ampla gama de ideias sem filtros iniciais.
+- Explore metÃ¡foras, conexÃµes entre domÃ­nios diferentes e perspectivas variadas.
 
-## 3. Convergência Pragmática
-- Selecione as 3 melhores ideias baseadas em: Impacto, Viabilidade e Originalidade.
-- Apresente ao usuário com a justificativa técnica/estética de cada uma.
+## 2. Refinamento de Qualidade
+- Avalie a originalidade e a eficÃ¡cia de cada proposta.
+- Refine as ideias para que sejam sÃ³lidas tecnicamente e alinhadas com os objetivos do projeto.
+
+## 3. ConvergÃªncia e SeleÃ§Ã£o
+- Selecione as propostas mais promissoras baseadas em: Impacto, Viabilidade e Alinhamento com a necessidade do usuÃ¡rio.
+- Apresente as opÃ§Ãµes com justificativas claras, destacando prÃ³s e contras de cada abordagem.
 
 ---
-
-
-

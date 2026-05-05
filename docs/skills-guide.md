@@ -1,7 +1,7 @@
-﻿# Antigravity Skills
+# Antigravity Skills
 Instead of constantly reminding the AI to "remember to add the license" or "fix the commit format," now the Agent will do it automatically!
 
-# 🛡️ Amago Academy - 2026
+# ??? Amago Academy - 2026
 
 # Antigravity Skills
 
@@ -9,7 +9,7 @@ Instead of constantly reminding the AI to "remember to add the license" or "fix 
 
 ---
 
-## 📋 Overview
+## ?? Overview
 
 While Antigravity's base models (like Gemini) are powerful generalists, they don't know your specific project context or your team's standards. Loading every rule or tool into the agent's context window leads to "tool bloat," higher costs, latency, and confusion.
 
@@ -17,7 +17,7 @@ While Antigravity's base models (like Gemini) are powerful generalists, they don
 
 ---
 
-## 📁 Structure and Scope
+## ?? Structure and Scope
 
 Skills are folder-based packages. You can define these scopes based on your needs:
 
@@ -29,15 +29,15 @@ Skills are folder-based packages. You can define these scopes based on your need
 
 ```
 my-skill/
-├── SKILL.md      # (Required) Metadata & instructions
-├── scripts/      # (Optional) Python or Bash scripts
-├── references/   # (Optional) Text, documentation, templates
-└── assets/       # (Optional) Images or logos
++-- SKILL.md      # (Required) Metadata & instructions
++-- scripts/      # (Optional) Python or Bash scripts
++-- references/   # (Optional) Text, documentation, templates
++-- assets/       # (Optional) Images or logos
 ```
 
 ---
 
-## 🔍 Example 1: Code Review Skill
+## ?? Example 1: Code Review Skill
 
 This is an instruction-only skill; you only need to create the `SKILL.md` file.
 
@@ -117,7 +117,7 @@ The Agent will automatically identify the `code-review` skill, load the informat
 
 ---
 
-## 📄 Example 2: License Header Skill
+## ?? Example 2: License Header Skill
 
 This skill uses a reference file in the `resources/` (or `references/`) directory.
 
@@ -170,14 +170,14 @@ The Agent will read the template, convert the comments to Python style, and auto
 
 ---
 
-## 🎯 Conclusion
+## ?? Conclusion
 
 By creating Skills, you transform a general AI model into an expert for your project:
 
-- ✅ Systematize best practices
-- ✅ Adhere to code review rules
-- ✅ Automatically add license headers
-- ✅ The Agent automatically knows how to work with your team
+- ? Systematize best practices
+- ? Adhere to code review rules
+- ? Automatically add license headers
+- ? The Agent automatically knows how to work with your team
 
 Instead of constantly reminding the AI to "remember to add the license" or "fix the commit format," now the Agent will do it automatically!
 

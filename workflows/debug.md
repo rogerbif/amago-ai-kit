@@ -1,7 +1,7 @@
-﻿
-# 🛡️ Amago Academy - 2026
 
-# 🔍 Fluxo de Debugging Cirúrgico (Amago Elite)
+# ??? Amago Academy - 2026
+
+# ?? Fluxo de Debugging Cirúrgico
 
 > Não masque o sintoma. Elimine a causa raiz.
 

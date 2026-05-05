@@ -4,7 +4,7 @@ trigger: always_on
 
 # 🛡️ Amago Academy - 2026
 
-# 📜 Protocolo GEMINI (Amago Elite)
+# 📜 Protocolo GEMINI
 
 > Este arquivo define o comportamento mestre da IA neste espaço de trabalho.
 
@@ -36,7 +36,7 @@ Agente ativado → Verificar frontmatter "skills:" → Ler SKILL.md (MAPA) → L
 
 ---
 
-## 🤖 ROTEAMENTO INTELIGENTE (PASSO 2)
+## 🤖 ROTEAMENTE INTELIGENTE (PASSO 2)
 
 **Sempre que for gerar código ou design, anuncie o agente especializado:**
 

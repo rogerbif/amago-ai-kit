@@ -1,19 +1,19 @@
-# Autenticação e Autorização
+# AutenticaÃ§Ã£o e AutorizaÃ§Ã£o
 
-> Proteja sua API com padrões modernos.
+> Proteja sua API com padrÃµes modernos.
 
-## Padrões de Autenticação
+## PadrÃµes de AutenticaÃ§Ã£o
 
 1. **JWT (JSON Web Tokens)**: Ideal para APIs stateless. Use com `Bearer` token no header `Authorization`.
-2. **OAuth2 / OIDC**: Recomendado para integrações de terceiros e SSO.
-3. **API Keys**: Útil para acesso de servidor para servidor (S2S). Garanta que as chaves sejam rotacionáveis.
+2. **OAuth2 / OIDC**: Recomendado para integraÃ§Ãµes de terceiros e SSO.
+3. **API Keys**: Ãštil para acesso de servidor para servidor (S2S). Garanta que as chaves sejam rotacionÃ¡veis.
 
-## Melhores Práticas de Segurança
+## Melhores PrÃ¡ticas de SeguranÃ§a
 
-- **HTTPS Obrigatório**: Nunca transmita credenciais em texto claro.
-- **Expiração de Token**: Use tokens de curta duração e `refresh tokens`.
-- **RBAC (Role-Based Access Control)**: Implemente permissões granulares.
-- **Sanitização**: Valide tokens no backend em todas as requisições.
+- **HTTPS ObrigatÃ³rio**: Nunca transmita credenciais em texto claro.
+- **ExpiraÃ§Ã£o de Token**: Use tokens de curta duraÃ§Ã£o e `refresh tokens`.
+- **RBAC (Role-Based Access Control)**: Implemente permissÃµes granulares.
+- **SanitizaÃ§Ã£o**: Valide tokens no backend em todas as requisiÃ§Ãµes.
 
 ## Exemplo de Header
 ```http

@@ -1,31 +1,29 @@
-﻿---
+---
 name: brand-guidelines
-description: Visual identity, tone of voice, and Cyberpunk aesthetics of Amago AI Kit. Use when styling the project or defining its core identity.
+description: IdentificaÃ§Ã£o de identidade visual, tom de voz e alinhamento com a marca do projeto. Use para garantir que as implementaÃ§Ãµes respeitem o design system existente.
 ---
 
-# 🛡️ Amago Academy - 2026
+# ðŸ›¡ï¸ Amago Academy - 2026
 
-# 🎨 Brand Guidelines (Amago Elite)
+# ðŸŽ¨ Brand Guidelines
 
-> Amago não é apenas um kit; é uma estética. É onde o Cyberpunk encontra a Engenharia de Software.
+> O Amago se adapta Ã  alma do seu projeto. ExcelÃªncia Ã© manter a consistÃªncia da sua marca.
 
-Esta skill define o tom de voz, a identidade visual e os princípios de design do **Amago AI Kit**.
+Esta skill orienta como identificar e aplicar o tom de voz e a identidade visual do projeto em andamento.
 
-## 🎯 A Alma do Amago
-1. **Estética Cyberpunk**: Foco em contrastes altos, tipografia agressiva e interfaces que parecem vir do futuro.
-2. **Tom de Voz de Elite**: Direto, técnico, ambicioso e sem clichês.
-3. **Funcionalidade Radical**: O design deve ser bonito, mas a função é a prioridade absoluta.
-
----
-
-## ✅ Checklist de Marca
-
-- [ ] **Paleta de Cores**: As cores usadas respeitam a identidade Amago (evitando clichês como o roxo genérico)?
-- [ ] **Tipografia**: As fontes escolhidas transmitem força e modernidade?
-- [ ] **Linguagem**: A comunicação é técnica e direta ao ponto?
+## ðŸŽ¯ PrincÃ­pios de AdaptaÃ§Ã£o
+1. **Fidelidade ao Design System**: Identifique as cores, tipografia e padrÃµes existentes antes de propor mudanÃ§as.
+2. **Alinhamento de Tom de Voz**: Ajuste a comunicaÃ§Ã£o (tÃ©cnica, amigÃ¡vel, formal) de acordo com o contexto do projeto.
+3. **Melhoria Incremental**: Sugira melhorias estÃ©ticas que respeitem a fundaÃ§Ã£o visual jÃ¡ estabelecida, evitando mudanÃ§as disruptivas nÃ£o solicitadas.
 
 ---
 
-*Amago AI Kit: Identidade forte, execução implacável.*
+## âœ… Checklist de Marca
 
+- [ ] **ConsistÃªncia**: As novas implementaÃ§Ãµes seguem os padrÃµes visuais (cores/fontes) do projeto?
+- [ ] **Tom de Voz**: A linguagem utilizada estÃ¡ alinhada com a comunicaÃ§Ã£o da marca?
+- [ ] **Tokens de Design**: Se o projeto usa variÃ¡veis (Tailwind, CSS Variables), elas estÃ£o sendo reutilizadas corretamente?
 
+---
+
+*Amago AI Kit: InteligÃªncia que entende e respeita a sua marca.*

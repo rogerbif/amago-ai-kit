@@ -1,7 +1,7 @@
-﻿
-# 🛡️ Amago Academy - 2026
 
-# 📋 Fluxo de Planejamento (Amago Elite)
+# ??? Amago Academy - 2026
+
+# ?? Fluxo de Planejamento
 
 > Planejar é economizar tempo de debug.
 

@@ -1,28 +1,28 @@
 # Architecture Decision Records (ADR)
 
-> O rastro das grandes decisões.
+> O rastro das grandes decisÃµes.
 
-Um ADR captura o contexto e o raciocínio por trás de uma decisão técnica significativa.
+Um ADR captura o contexto e o raciocÃ­nio por trÃ¡s de uma decisÃ£o tÃ©cnica significativa.
 
 ## Por que usar ADRs?
-- **Contexto Histórico**: Entender o "porquê" de uma decisão anos depois.
-- **Onboarding**: Ajudar novos membros a entender a evolução do sistema.
-- **Alinhamento**: Garantir que todos os especialistas de IA e humanos saibam qual é o padrão atual.
+- **Contexto HistÃ³rico**: Entender o "porquÃª" de uma decisÃ£o anos depois.
+- **Onboarding**: Ajudar novos membros a entender a evoluÃ§Ã£o do sistema.
+- **Alinhamento**: Garantir que todos os especialistas de IA e humanos saibam qual Ã© o padrÃ£o atual.
 
 ---
 
-## Estrutura Padrão (MADR)
+## Estrutura PadrÃ£o (MADR)
 
 Todo ADR deve conter:
-1. **Status**: Proposto, Aceito, Depreciado ou Substituído.
+1. **Status**: Proposto, Aceito, Depreciado ou SubstituÃ­do.
 2. **Contexto**: Qual problema estamos tentando resolver?
-3. **Opções Consideradas**: Quais caminhos poderíamos ter tomado?
-4. **Decisão**: Qual caminho escolhemos e por quê?
-5. **Consequências**: O que ganhamos e o que perdemos com essa escolha?
+3. **OpÃ§Ãµes Consideradas**: Quais caminhos poderÃ­amos ter tomado?
+4. **DecisÃ£o**: Qual caminho escolhemos e por quÃª?
+5. **ConsequÃªncias**: O que ganhamos e o que perdemos com essa escolha?
 
 ---
 
-## Exemplo Rápido
-**Decisão**: Usar Supabase como Backend.
+## Exemplo RÃ¡pido
+**DecisÃ£o**: Usar Supabase como Backend.
 **Rationale**: Rapidez de desenvolvimento, RLS nativo e PostgreSQL completo.
-**Consequência**: Dependência de um provedor PaaS, mas economia de 4 semanas de setup manual.
+**ConsequÃªncia**: DependÃªncia de um provedor PaaS, mas economia de 4 semanas de setup manual.

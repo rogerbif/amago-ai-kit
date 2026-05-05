@@ -5,14 +5,14 @@
 
 # Amago AI Kit
 
-> Ecossistema de especialistas de elite e habilidades modulares para Antigravity.
+> Ecossistema de especialistas e habilidades modulares para Antigravity.
 
-O **Amago AI Kit** transforma o Antigravity em uma central de inteligência descentralizada. Em vez de agentes genéricos, você tem acesso a especialistas focados em resultados técnicos de alta performance.
+O **Amago AI Kit** transforma o Antigravity em uma central de inteligência descentralizada. Em vez de agentes genéricos, você tem acesso a especialistas focados em resultados técnicos de alta performance que se adaptam ao seu projeto.
 
 ## 🚀 Como Funciona
 
 O kit é baseado em três pilares:
-1. **Agentes de Elite**: Especialistas com frameworks de decisão e checklists mandatórios.
+1. **Agentes Especialistas**: Especialistas com frameworks de decisão e checklists de qualidade.
 2. **Habilidades (Skills)**: Conhecimento técnico granular carregado sob demanda (**Progressive Disclosure**).
 3. **Fluxos de Trabalho**: Receitas passo a passo para tarefas complexas.
 
@@ -41,7 +41,7 @@ Para tarefas complexas, não peça apenas o código. Peça o fluxo:
 > *"Siga o workflow de `plan.md` para planejar a migração do banco de dados."*
 
 ### 3. Aplicação de Skills
-Você pode forçar a aplicação de padrões específicos em qualquer código:
+Você pode solicitar a aplicação de padrões específicos em qualquer código:
 > *"Revise este componente usando `clean-code` e `accessibility-audit`."*
 
 ### 4. O Fluxo Amago (Protocolo GEMINI)
@@ -89,4 +89,4 @@ Assim que o arquivo `gemini.md` estiver na raiz do seu projeto, o Antigravity as
 
 ---
 
-*Amago AI Kit: Inteligência de elite para desenvolvimento acelerado.*
+*Amago AI Kit: Inteligência adaptativa para desenvolvimento acelerado.*

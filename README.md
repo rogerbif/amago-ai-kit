@@ -57,7 +57,7 @@ O kit está configurado para:
 
 1. Clone este repositório no seu workspace.
 2. Certifique-se de que a pasta `agents/` e `skills/` estão acessíveis ao Antigravity.
-3. O Protocolo GEMINI em `standards/gemini.md` será ativado automaticamente (`trigger: always_on`).
+3. O Protocolo GEMINI em `gemini.md` (na raiz) será ativado automaticamente (`trigger: always_on`).
 
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 trigger: always_on
 ---
 
@@ -66,6 +66,3 @@ Utilize os scripts da pasta `tools/` para manter a integridade do kit:
 - `python tools/maintenance/generate_index.py`: Gera o índice automático do kit.
 
 ---
-
-
-

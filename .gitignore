@@ -1,0 +1,9 @@
+node_modules/
+.antigravity/gestao/
+gestor_data.js
+.DS_Store
+*.log
+.amago/
+travas/
+comunicacao/
+registro_tarefas.json

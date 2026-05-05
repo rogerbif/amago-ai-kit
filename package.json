@@ -1,0 +1,19 @@
+{
+  "name": "amago-ai-kit",
+  "version": "1.0.0",
+  "description": "Ecossistema de orquestração de agentes de elite para Antigravity",
+  "main": "core/gestor.js",
+  "type": "module",
+  "bin": {
+    "amago": "./bin/amago.js"
+  },
+  "scripts": {
+    "interativo": "node bin/amago.js interativo"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0"
+  },
+  "author": "Amago Team",
+  "license": "MIT"
+}

@@ -2,6 +2,8 @@
 
 import { program } from 'commander';
 import chalk from 'chalk';
+import fs from 'fs';
+import path from 'path';
 import { GestorEquipe } from '../core/gestor.js';
 
 const gestor = new GestorEquipe();
@@ -71,6 +73,30 @@ program
       gestor.registrarLog("SECURITY", "Scan completo: Nenhuma vulnerabilidade crítica encontrada.", "INFO");
       gestor.registrarLog("PM", "Sugestão: Refatorar o dashboard para usar WebSockets.", "INFO");
     }, 1500);
+  });
+
+program
+  .command('install-workflows')
+  .description('Instala os workflows do Amago globalmente no Antigravity')
+  .action(() => {
+    const appData = process.env.APPDATA || (process.platform === 'win32' ? path.join(process.env.USERPROFILE, 'AppData', 'Roaming') : null);
+    const antigravityDir = path.join(process.env.USERPROFILE, '.gemini', 'antigravity', 'global_workflows');
+    
+    if (fs.existsSync(antigravityDir)) {
+      const kitWorkflowsDir = path.join(gestor.diretorioKit, 'workflows');
+      const files = fs.readdirSync(kitWorkflowsDir).filter(f => f.endsWith('.md'));
+      
+      files.forEach(file => {
+        const src = path.join(kitWorkflowsDir, file);
+        const dest = path.join(antigravityDir, `amago-${file}`);
+        fs.copyFileSync(src, dest);
+      });
+      
+      console.log(chalk.green(`\n[OK] ${files.length} workflows instalados em: ${antigravityDir}`));
+      console.log(chalk.cyan("Agora você pode usar comandos como /amago-interativo em qualquer projeto!"));
+    } else {
+      console.log(chalk.red(`[ERRO] Pasta de workflows global não encontrada: ${antigravityDir}`));
+    }
   });
 
 program.parse(process.argv);

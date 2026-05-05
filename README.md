@@ -18,17 +18,16 @@ O **Amago AI Kit** é um framework de gestão multi-agente projetado para transf
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/amago-ai-kit.git
+git clone https://github.com/rogerbif/amago-ai-kit.git
 
 # Entre na pasta
 cd amago-ai-kit
 
-# Instale as dependências
-npm install
-
-# Linke o comando globalmente (Opcional)
-npm link
+# Instalação rápida (Windows)
+./setup.ps1
 ```
+
+A instalação via `setup.ps1` irá configurar as dependências, linkar o comando `amago` globalmente e integrar os workflows nativos ao seu editor Antigravity.
 
 ## 🚀 Como Iniciar uma Missão
 

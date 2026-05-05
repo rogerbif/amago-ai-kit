@@ -1,57 +1,64 @@
-# 🤖 Amago AI Kit: O Esquadrão de Elite
 
-> Orquestração Neural de Agentes Especialistas para Desenvolvimento de Alta Performance no Antigravity.
+---
 
-O **Amago AI Kit** é um framework de gestão multi-agente projetado para transformar a maneira como você constrói software. Ele não apenas automatiza tarefas, mas cria um ecossistema de especialistas que trabalham em harmonia, com auditoria de segurança e validação de qualidade em tempo real.
+# 🛡️ Amago Academy - 2026
 
-![Amago Dashboard](https://raw.githubusercontent.com/placeholder-path/dashboard.png)
+# Amago AI Kit
 
-## 🌟 Diferenciais
+> Ecossistema de especialistas de elite e habilidades modulares para Antigravity.
 
-- **Orquestração Multi-Agente**: PM, Frontend, Backend, Security e QA trabalham de forma coordenada.
-- **Neural Monitor**: Dashboard em tempo real com design Cyberpunk para acompanhar o "pensamento" dos agentes.
-- **Aprendizado Contínuo**: O sistema extrai e consolida conhecimentos automaticamente após cada tarefa concluída.
-- **Fluxo de QA Obrigatório**: Desenvolvedores não finalizam tarefas sem o "carimbo" de aprovação do Auditor de Qualidade.
-- **Portabilidade Total**: Use o Amago como uma Central de Comando para gerir múltiplos projetos simultaneamente.
+O **Amago AI Kit** transforma o Antigravity em uma central de inteligência descentralizada. Em vez de agentes genéricos, você tem acesso a especialistas focados em resultados técnicos de alta performance.
+
+## 🚀 Como Funciona
+
+O kit é baseado em três pilares:
+1. **Agentes de Elite**: Especialistas com frameworks de decisão e checklists mandatórios.
+2. **Habilidades (Skills)**: Conhecimento técnico granular carregado sob demanda (**Progressive Disclosure**).
+3. **Fluxos de Trabalho**: Receitas passo a passo para tarefas complexas.
+
+---
+
+## 📂 Estrutura
+
+- `agents/`: Backend, Frontend, PM, Security, QA, DevOps, Debugger e Docs.
+- `skills/`: Biblioteca de 25 habilidades técnicas modulares.
+- `workflows/`: Workflows estruturados para planejamento, debug e brainstorm.
+- `standards/`: Protocolos de IA (GEMINI) e padrões de Design/Código.
+- `tools/`: Ferramentas de manutenção e automação do kit.
+
+---
+
+## 📖 Guia de Uso (Manual de Operação)
+
+O Amago AI Kit funciona como um "Sistema Operacional de Inteligência". Siga estes passos para extrair o máximo de performance:
+
+### 1. Invocação de Agente
+Sempre que tiver uma tarefa de um domínio específico, chame o especialista:
+> *"Aja como o `backend-specialist` e use a skill `supabase-automation` para criar este endpoint."*
+
+### 2. Uso de Workflows
+Para tarefas complexas, não peça apenas o código. Peça o fluxo:
+> *"Siga o workflow de `plan.md` para planejar a migração do banco de dados."*
+
+### 3. Aplicação de Skills
+Você pode forçar a aplicação de padrões específicos em qualquer código:
+> *"Revise este componente usando `clean-code` e `accessibility-audit`."*
+
+### 4. O Fluxo Amago (Protocolo GEMINI)
+O kit está configurado para:
+1. **Classificar** seu pedido automaticamente.
+2. **Anunciar** o agente ativo: `🤖 Aplicando conhecimentos de @[agente]...`
+3. **Pausar** para perguntas (Portão Socrático) se o pedido for vago.
+4. **Planejar** antes de executar qualquer mudança complexa.
+
+---
 
 ## 🛠️ Instalação
 
-```bash
-# Clone o repositório
-git clone https://github.com/rogerbif/amago-ai-kit.git
-
-# Entre na pasta
-cd amago-ai-kit
-
-# Instalação rápida (Windows)
-./setup.ps1
-```
-
-A instalação via `setup.ps1` irá configurar as dependências, linkar o comando `amago` globalmente e integrar os workflows nativos ao seu editor Antigravity.
-
-## 🚀 Como Iniciar uma Missão
-
-1. No seu projeto, inicie o modo interativo:
-   ```bash
-   amago interativo
-   ```
-2. O Amago abrirá automaticamente o **Neural Monitor**.
-3. Comece a delegar:
-   ```bash
-   amago tarefa "Criar sistema de autenticação JWT" "BACKEND"
-   ```
-
-## 👥 Conheça o Esquadrão
-
-- **🧠 PM**: Estrategista. Define requisitos e o caminho crítico.
-- **🎨 Frontend**: Mestre da interface. Especialista em UX moderna.
-- **⚙️ Backend**: Arquiteto de sistemas. Lógica e infraestrutura.
-- **🛡️ Security**: Guardião. Auditoria compulsória de planos e segurança.
-- **🔍 QA**: Engenheiro de Qualidade. Validação e auditoria de entregas.
-
-## 📜 Licença
-
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+1. Clone este repositório no seu workspace.
+2. Certifique-se de que a pasta `agents/` e `skills/` estão acessíveis ao Antigravity.
+3. O Protocolo GEMINI em `standards/gemini.md` será ativado automaticamente (`trigger: always_on`).
 
 ---
-*Construído para orquestrar o futuro. Potencializado por Antigravity.*
+
+*Amago AI Kit: Inteligência de elite para desenvolvimento acelerado.*

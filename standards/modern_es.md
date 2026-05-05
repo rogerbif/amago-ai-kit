@@ -1,3 +1,8 @@
+﻿# Amago AI Kit: Padrões Modern ES
+4. Logging e Monitoramento: Implemente logs estruturados para facilitar a depuração em produção.
+
+# 🛡️ Amago Academy - 2026
+
 # Amago AI Kit: Padrões Modern ES
 
 Todo o código desenvolvido dentro deste ecossistema deve seguir os padrões mais atuais do EcmaScript e as melhores práticas de desenvolvimento modular de 2025.
@@ -22,3 +27,5 @@ Todo o código desenvolvido dentro deste ecossistema deve seguir os padrões mai
 2. Middleware de Segurança: Implemente validação e sanitização em todas as rotas de entrada.
 3. Tratamento de Erros Centralizado: Utilize um middleware ou utilitário global para capturar e formatar erros.
 4. Logging e Monitoramento: Implemente logs estruturados para facilitar a depuração em produção.
+
+

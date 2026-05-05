@@ -53,11 +53,39 @@ O kit está configurado para:
 
 ---
 
-## 🛠️ Instalação
+## 🛠️ Como Instalar
 
-1. Clone este repositório no seu workspace.
-2. Certifique-se de que a pasta `agents/` e `skills/` estão acessíveis ao Antigravity.
-3. O Protocolo GEMINI em `gemini.md` (na raiz) será ativado automaticamente (`trigger: always_on`).
+Existem três formas de integrar o **Amago AI Kit** ao seu fluxo de trabalho:
+
+### 1. Instalação Automática (Recomendado)
+Se você já clonou este repositório, basta executar o script de ativação:
+```powershell
+./setup.ps1
+```
+*Este script configura o ambiente, valida o Protocolo GEMINI e prepara o seu `.gitignore`.*
+
+### 2. Uso como Submódulo (Projetos Existentes)
+Para manter o kit atualizado dentro de um projeto existente sem misturar os históricos:
+```bash
+git submodule add https://github.com/seu-usuario/amago-ai-kit.git amago-kit
+cp amago-kit/gemini.md .
+```
+*É vital que o arquivo `gemini.md` esteja na raiz do seu projeto para ativar a IA.*
+
+### 3. Clonagem Direta
+Para começar um projeto novo do zero já com o kit:
+```bash
+git clone https://github.com/seu-usuario/amago-ai-kit.git .
+./setup.ps1
+```
+
+---
+
+## 🚀 O que acontece após a instalação?
+Assim que o arquivo `gemini.md` estiver na raiz do seu projeto, o Antigravity assumirá o **Protocolo GEMINI**. A IA passará a:
+1. **Classificar** cada pedido seu.
+2. **Consultar** a pasta `agents/` para escolher o melhor especialista.
+3. **Carregar** as `skills/` técnicas necessárias sob demanda.
 
 ---
 

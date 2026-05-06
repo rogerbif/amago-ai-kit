@@ -41,5 +41,7 @@ Este workflow automatiza e padroniza a atualização do `HISTORICO_DO_PROJETO.md
 3. **Log Rotation (Opcional)**: Se o arquivo ultrapassar 500 linhas, sugerir arquivamento das versões mais antigas em `amago/history/`.
 
 ---
-**🚀 Deseja tornar este workflow um comando global?**
-Se este protocolo for útil para outros projetos, eu posso salvá-lo como um comando `/` no Antigravity para acesso rápido em qualquer workspace.
+**🚀 Deseja elevar este protocolo?**
+1. **Comando Global**: Deseja tornar este workflow um comando `/` no Antigravity para acesso rápido em qualquer workspace?
+2. **Automação Contínua**: Deseja que eu adicione uma instrução fixa ao meu protocolo para que, após **cada** melhoria realizada, eu atualize automaticamente o `HISTORICO_DO_PROJETO.md` seguindo este padrão?
+

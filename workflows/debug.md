@@ -26,10 +26,8 @@ Siga este fluxo para resolver bugs complexos com precisão e segurança.
 - Documente o aprendizado se for um erro de arquitetura recorrente.
 
 ---
-**🚀 Deseja elevar este protocolo?**
-1. **Comando Global**: Deseja tornar este workflow um comando `/` no Antigravity para acesso rápido em qualquer workspace?
-2. **Automação Contínua**: Deseja que eu adicione uma instrução fixa ao meu protocolo para que, após **cada** melhoria realizada, eu atualize automaticamente o `HISTORICO_DO_PROJETO.md` seguindo este padrão?
-
+**🚀 Deseja tornar este workflow um comando global?**
+Se este protocolo for útil para outros projetos, eu posso salvá-lo como um comando `/` no Antigravity para acesso rápido em qualquer workspace.
 
 
 

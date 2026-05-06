@@ -26,6 +26,9 @@ Siga este fluxo sempre que iniciar uma tarefa complexa de implementação ou ref
 - Faça pelo menos 3 perguntas ao usuário sobre casos de borda ou trade-offs antes de começar a codar.
 
 ---
+**🚀 Deseja tornar este workflow um comando global?**
+Se este protocolo for útil para outros projetos, eu posso salvá-lo como um comando `/` no Antigravity para acesso rápido em qualquer workspace.
+
 
 
 

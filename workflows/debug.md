@@ -26,6 +26,9 @@ Siga este fluxo para resolver bugs complexos com precisão e segurança.
 - Documente o aprendizado se for um erro de arquitetura recorrente.
 
 ---
+**🚀 Deseja tornar este workflow um comando global?**
+Se este protocolo for útil para outros projetos, eu posso salvá-lo como um comando `/` no Antigravity para acesso rápido em qualquer workspace.
+
 
 
 

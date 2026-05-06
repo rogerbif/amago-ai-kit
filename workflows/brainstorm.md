@@ -20,3 +20,6 @@ Use este fluxo para gerar conceitos, soluÃ§Ãµes criativas e explorar diferen
 - Apresente as opÃ§Ãµes com justificativas claras, destacando prÃ³s e contras de cada abordagem.
 
 ---
+**🚀 Deseja tornar este workflow um comando global?**
+Se este protocolo for útil para outros projetos, eu posso salvá-lo como um comando `/` no Antigravity para acesso rápido em qualquer workspace.
+
